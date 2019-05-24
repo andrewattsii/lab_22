@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+@*in form yo must call the home controller and within the controller get data*@
+@*3 action below goes to home controller and to the summary page method (go to controller summarypage)*@
+<form action="/Home/SummaryPage" method="post" >
+    @*this is what shows up on the form in a text box*@
+
+
+    @*1 user enters info*@
+    First Name 
+    <input type="text" name="name" required />
+    Last Name
+    <input type="text" name="lastName" required />
+    Email
+    <input type="email" name="email" required />
+    Phone Number
+    <input type="tel" name="phoneNumber" required />
+    Password
+    <input type="password" name="password" required />
+    @*2 submit button goes  action above*@
+    <input type="submit" value="Submit Data" />
+</form>
