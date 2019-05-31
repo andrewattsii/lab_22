@@ -74,3 +74,7 @@ C:\Users\andre\Desktop\gc_projects\lab_22\lab_22\obj\Debug\lab_22.csproj.CoreCom
 C:\Users\andre\Desktop\gc_projects\lab_22\lab_22\obj\Debug\lab_22.csproj.CopyComplete
 C:\Users\andre\Desktop\gc_projects\lab_22\lab_22\obj\Debug\lab_22.dll
 C:\Users\andre\Desktop\gc_projects\lab_22\lab_22\obj\Debug\lab_22.pdb
+C:\Users\andre\Desktop\gc_projects\lab_22\lab_22\bin\EntityFramework.dll
+C:\Users\andre\Desktop\gc_projects\lab_22\lab_22\bin\EntityFramework.SqlServer.dll
+C:\Users\andre\Desktop\gc_projects\lab_22\lab_22\bin\EntityFramework.xml
+C:\Users\andre\Desktop\gc_projects\lab_22\lab_22\bin\EntityFramework.SqlServer.xml

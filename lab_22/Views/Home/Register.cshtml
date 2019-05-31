@@ -6,21 +6,22 @@
 <h2>Register</h2>
 @*in form yo must call the home controller and within the controller get data*@
 @*3 action below goes to home controller and to the summary page method (go to controller summarypage)*@
-<form action="/Home/SummaryPage" method="post" >
+
+<form id="formed" action="/Home/SummaryPage" method="post" >
     @*this is what shows up on the form in a text box*@
 
-
+    
     @*1 user enters info*@
     First Name 
-    <input type="text" name="name" required />
+    <input type="text" name="Name" required /><br />
     Last Name
-    <input type="text" name="lastName" required />
+    <input type="text" name="LastName" required /><br />
     Email
-    <input type="email" name="email" required />
+    <input type="email" name="Email" required /><br />
     Phone Number
-    <input type="tel" name="phoneNumber" required />
+    <input type="tel" name="PhoneNumber" required /><br />
     Password
-    <input type="password" name="password" required />
+    <input type="password" name="Password" required /><br />
     @*2 submit button goes  action above*@
     <input type="submit" value="Submit Data" />
 </form>

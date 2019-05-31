@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@*we know we want to areate a table take not to the rows and collums*@
+    <table class="table" style="padding: 2px;">
+        <tr>
+            <th>Name </th>  <th>Description</th>  <th>Quantity</th> <th>Price</th>
+        </tr>
+         @foreach (var item in ViewBag.ItemsList)
+         {
+             <tr>
+                 <td>@item.Name</td>  <td>@item.Description</td>  <td>@item.Quantity</td>  <td>@item.Price</td>
+             </tr>
+         }
+
+
+    </table>
+

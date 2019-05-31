@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "EditForm";
+}
+
+<h2>EditForm</h2>
+
+
+
+<form action="EditItem" method="post">
+
+<input type="text" name="Name" placeholder="Enter Name" />
+<input type="text" name="Description" placeholder="Enter Description" />
+<input type="number" name="Quantity" placeholder="Enter Quantity" />
+<input type="number" name="Price" placeholder="Enter Price" />
+<input type="submit" class="btn-block" value="Save" />
+
+
+
+@ViewBag.ErrorMessage
+</form>
+
+

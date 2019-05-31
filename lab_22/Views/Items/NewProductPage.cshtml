@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "NewProductPage";
+}
+
+
+<h2>NewProduct</h2>
+
+@model lab_22.Models.Item
+
+<form action="SaveNewProduct" method="post">
+
+    <input type="text" name="Name" placeholder="Enter Name" />
+    <input type="text" name="Description" placeholder="Enter Description" />
+    <input type="number" name="Quantity" placeholder="Enter Quantity" />
+    <input type="number" name="Price" placeholder="Enter Price" />
+    <input type="submit" class="btn-block" value="Add Product" />
+
+   
+
+</form>
+
